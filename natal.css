@@ -1,0 +1,61 @@
+body{
+    background: #0b1522;
+    
+}
+
+
+.titulo{
+    text-align: center;
+    h1{
+    color: aliceblue;
+    font-family: 'Times New Roman, Times, serif';
+    text-shadow: 2px 2px 5px red;
+    font-style: oblique;
+    font-weight: bold;
+    }
+}
+.slide{
+    border-radius: 8px;
+}
+.texto{
+    text-align: center;
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 27%;
+    margin-right: 27%;
+    color: white;
+    h2{
+        color: yellow;
+        font-family: 'Times New Roman', Times, serif;
+        text-shadow: 2px 2px 5px yellowgreen;
+        font-style: oblique;
+        font-weight: bold;
+    }  
+}
+
+/*AlTERAÇÃO*/
+
+.button {
+    margin-top: 20px;
+    margin-left: 225px;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    outline: none;
+    color: #fff;
+    background-color: #f2004f;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px #f20044;
+  }
+  
+  .button:hover {background-color: #ff3176}
+  
+  .button:active {
+    background-color: #f2004f;
+    box-shadow: 2px 2px 20px #f20044;
+    transform: translateY(4px);
+  }

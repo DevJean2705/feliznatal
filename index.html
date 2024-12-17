@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="natal.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Presente de Natal</title>
+</head>
+<body>
+    <div class="titulo">
+        <h1>Feliz Natal</h1>
+    </div>
+    <br>
+    <div class="w3-content w3-section w3-center" style="max-width: 300px;">
+        <img class="slide" src="img/casal10.jpg"style="width: 100%;">
+        <img class="slide" src="img/casal3.jpg" style="width: 100%;">
+        <img class="slide" src="img/casal8.jpg" style="width: 100%;">
+        <img class="slide" src="img/casal7.jpg" style="width: 100%;">
+        <img class="slide" src="img/casal9.jpg" style="width: 100%;">
+    </div>
+    
+    <script>
+        var index = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("slide");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            index++;
+            if (index > x.length) { index = 1 }
+            x[index - 1].style.display = "block";
+            setTimeout(carousel, 2000);
+        }
+    </script>
+    
+        <br>
+    
+    <div class="texto">
+        <h2>Mais um natal juntos!</h2>
+        <hr style="width:auto;" class="w3-opacity">
+        <p>Oi minha princesa,
+
+            Este ano não foi fácil para nós. Vivemos momentos desafiadores, encaramos dúvidas, lágrimas e aprendemos mais sobre nós mesmos e o 
+            que realmente significa amar. Tivemos dificuldades que poderiam ter nos separado (nos separou por alguns momentos kkkk), mas aqui
+            estamos, mais fortes, mais unidos e mais cientes do que somos capazes de superar juntos.</p>
+        <p>
+            O Natal sempre foi um momento de reflexão e esperança, e neste ano, ele tem um significado ainda mais especial. É o símbolo do recomeço,
+            da luz que brilha mesmo nos dias mais escuros e da vitória do amor sobre qualquer dificuldade.</p>
+        <p>
+            Quero te agradecer, de coração, por cada conversa sincera, por cada esforço que fizemos juntos para superar as tempestades, e por não 
+            desistir de nós. Eu vejo o quanto você é forte, o quanto o seu amor transforma e o quanto você é essencial na minha vida.</p>
+        <p>
+            Neste Natal, meu maior presente é estar ao seu lado, com o coração cheio de gratidão e esperança para o futuro. Que possamos olhar para 
+            este ano como uma prova de que, mesmo em meio a dificuldades, o amor verdadeiro sempre encontra um caminho.</p>
+        <p>
+            Eu te amo meu amor, e quero que este novo ano seja cheio de paz, alegria e momentos que celebrem o que construímos. Obrigado por ser você.
+            Feliz Natal, minha vida!❤️</p>
+        <p class="w3-right" style="color: yellow;text-shadow: 2px 2px 5px yellowgreen; font-family: cursive; font-size: large;">            
+            Com todo o meu amor, JeJe</p>
+            <hr style="width: auto;" class="w3-opacity">
+    </div>
+
+    <a href="https://devjean2705.github.io/presente/"><button class="button">Clique aqui</button></a>
+
+
+</body>
+</html>
